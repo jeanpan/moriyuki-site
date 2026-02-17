@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "title": "Moriyuki",
+    "description": "Welcome to Moriyuki."
+  },
+  "MyokoPage": {
+    "title": "MORIYUKI Myoko",
+    "description": "Experience our Myoko guesthouse.",
+    "hero": {
+      "headline": "Your Cozy Retreat in the Heart of Myoko",
+      "cta": "Book Direct (Best Price)",
+      "cta_airbnb": "Book on Airbnb"
+    },
+    "intro": {
+      "headline": "A Warm Welcome Awaits",
+      "text": "Nestled in the snowy landscapes of Myoko, Moriyuki offers a perfect blend of comfort and nature. Whether you're here for the world-class powder snow or the serene mountain views, our guesthouse is your home away from home.",
+      "subtext": "We invite you to experience the authentic warmth of our hospitality."
+    },
+    "features": {
+      "title": "Amenities & Features",
+      "dryRoom": "Ski Drying Room",
+      "kitchen": "Full Kitchen & Dishwasher",
+      "access": "9 min to Myoko Kogen Stn",
+      "supermarket": "5 min to Supermarket",
+      "parking": "Free Parking",
+      "lounge": "Cozy Lounge"
+    },
+    "rooms": {
+      "title": "Our Rooms",
+      "room1": {
+        "title": "Room 201",
+        "desc": "King Size Bed OR 2 Single Beds"
+      },
+      "room2": {
+        "title": "Room 202",
+        "desc": "King Size Bed OR 2 Single Beds"
+      },
+      "room3": {
+        "title": "Room 101",
+        "desc": "3 Single Beds OR King Size + Single Bed"
+      },
+      "viewDetails": "View Details"
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "location": {
+      "title": "Location & Access",
+      "address": "Myoko, Niigata, Japan",
+      "gettingHere": {
+        "title": "How to Get Here",
+        "train": "Train: Shinkansen to Nagano Stn → Shinano Railway to Myoko Kogen Stn → 9 min walk.\nOR Shinkansen to Joetsu-Myoko Stn → Train to Myoko Kogen Stn → 9 min walk.",
+        "car": "Car: Joshin-Etsu Expressway → Myoko Kogen IC → 5 min drive."
+      },
+      "nearby": {
+        "title": "Explore Nearby",
+        "desc": "Shuttle buses available from Myoko Kogen Station to major ski resorts.",
+        "driveTime": {
+          "akakuraKanko": "6 min to Akakura Kanko",
+          "akakuraOnsen": "8 min to Akakura Onsen / Ikenotaira",
+          "suginohara": "12 min to Suginohara",
+          "lotteArai": "30 min to Lotte Arai / Madarao Kogen",
+          "slogan": "Explore a different ski resort every day! 🏂 ⛷️"
+        }
+      },
+      "getDirections": "Get Directions"
+    },
+    "footer": {
+      "contact": "Contact Us",
+      "social": "Follow Us"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+import { setRequestLocale } from 'next-intl/server';
+import Hero from '@/components/myoko/Hero';
+import Intro from '@/components/myoko/Intro';
+import Features from '@/components/myoko/Features';
+import Rooms from '@/components/myoko/Rooms';
+import Gallery from '@/components/myoko/Gallery';
+import Location from '@/components/myoko/Location';
+import Footer from '@/components/myoko/Footer';
+
+export default async function MyokoPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return (
+    <div className="font-sans antialiased text-gray-900 bg-white">
+      <Hero />
+      <Intro />
+      <Features />
+      <Rooms />
+      <Gallery />
+      <Location />
+      <Footer />
+    </div>
+  );
+}

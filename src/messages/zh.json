@@ -1,0 +1,73 @@
+{
+  "HomePage": {
+    "title": "森雪",
+    "description": "歡迎來到森雪。"
+  },
+  "MyokoPage": {
+    "title": "森雪 妙高",
+    "description": "體驗我們的妙高民宿。",
+    "hero": {
+      "headline": "位於妙高中心的溫暖歸宿",
+      "cta": "官網預訂 (最優惠)",
+      "cta_airbnb": "Airbnb 預訂"
+    },
+    "intro": {
+      "headline": "熱情歡迎您的到來",
+      "text": "座落在妙高的雪景中，森雪提供舒適與自然的完美結合。無論您是為了世界級的粉雪還是寧靜的山景而來，我們的民宿都是您在異地的家。",
+      "subtext": "我們誠摯邀請您來體驗我們真誠溫暖的款待。"
+    },
+    "features": {
+      "title": "設施與特色",
+      "dryRoom": "雪具乾燥室",
+      "kitchen": "完善廚房 (附洗碗機)",
+      "access": "距妙高高原站 9 分鐘",
+      "supermarket": "距超市 5 分鐘",
+      "parking": "免費停車",
+      "lounge": "舒適休息室"
+    },
+    "rooms": {
+      "title": "房型介紹",
+      "room1": {
+        "title": "房型 201",
+        "desc": "特大雙人床 或 兩張單人床"
+      },
+      "room2": {
+        "title": "房型 202",
+        "desc": "特大雙人床 或 兩張單人床"
+      },
+      "room3": {
+        "title": "房型 101",
+        "desc": "三張單人床 或 特大雙人床 + 單人床"
+      },
+      "viewDetails": "查看詳情"
+    },
+    "gallery": {
+      "title": "畫廊"
+    },
+    "location": {
+      "title": "交通位置",
+      "address": "日本新潟縣妙高市",
+      "gettingHere": {
+        "title": "如何抵達",
+        "train": "鐵路：搭乘新幹線至長野站 → 轉乘信濃鐵道至妙高高原站 → 步行 9 分鐘。\n或是 搭乘新幹線至上越妙高站 → 轉乘電車至妙高高原站 → 步行 9 分鐘。",
+        "car": "開車：上信越自動車道 → 妙高高原 IC → 5 分鐘抵達。"
+      },
+      "nearby": {
+        "title": "周邊探索",
+        "desc": "妙高高原車站有付費接駁巴士前往周邊各大雪場。",
+        "driveTime": {
+          "akakuraKanko": "6 分鐘到赤倉觀光",
+          "akakuraOnsen": "8 分鐘到赤倉溫泉或池之平",
+          "suginohara": "12 分鐘到杉之原",
+          "lotteArai": "30 分鐘到樂天新井或斑尾高原",
+          "slogan": "每天都能探索不同的滑雪場 ~🏂 ⛷️"
+        }
+      },
+      "getDirections": "導航路線"
+    },
+    "footer": {
+      "contact": "聯絡我們",
+      "social": "追蹤我們"
+    }
+  }
+}
