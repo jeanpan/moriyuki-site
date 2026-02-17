@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center gap-3 mb-4">
             <Image
-              src="/logo.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.png`}
               alt="Moriyuki Logo"
               width={50}
               height={50}
