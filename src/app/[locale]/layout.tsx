@@ -39,7 +39,7 @@ export default async function LocaleLayout({
             <header className="absolute top-0 left-0 w-full z-50 p-6 flex justify-between items-center bg-transparent">
               <div className="flex items-center gap-3">
                 <Image
-                  src="/logo.png"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.png`}
                   alt="Moriyuki Logo"
                   width={40}
                   height={40}
