@@ -54,14 +54,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
-          # Disable automatic injection since we handle config manually
-          generator_config_file: "next.config.mjs"
+        # Removed static_site_generator to prevent auto-injection into next.config.mjs
+        # We handle configuration manually in next.config.mjs
 
       - name: Restore cache
         uses: actions/cache@v4
