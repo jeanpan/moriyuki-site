@@ -18,7 +18,7 @@
     },
     "features": {
       "title": "Amenities & Features",
-      "dryRoom": "Ski Drying Room",
+      "dryRoom": "Dry Room",
       "kitchen": "Full Kitchen & Dishwasher",
       "access": "9 min Walk to Myoko Kogen Stn",
       "supermarket": "4 min Walk to Supermarket",
@@ -63,6 +63,7 @@
           "akakuraOnsen": "8 min to Akakura Onsen / Ikenotaira",
           "suginohara": "12 min to Suginohara",
           "lotteArai": "25 min to Lotte Arai / Madarao Kogen",
+          "tangram": "15 min to Tangram",
           "slogan": "Explore a different ski resort every day! 🏂 ⛷️"
         }
       },

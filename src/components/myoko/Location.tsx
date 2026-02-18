@@ -75,6 +75,10 @@ export default function Location() {
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-amber-500 rounded-full flex-shrink-0" />
+                    {t('nearby.driveTime.tangram')}
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-2 h-2 bg-amber-500 rounded-full flex-shrink-0" />
                     {t('nearby.driveTime.lotteArai')}
                   </li>
                 </ul>
