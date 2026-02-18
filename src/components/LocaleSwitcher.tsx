@@ -4,7 +4,7 @@ import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { ChangeEvent, useTransition } from 'react';
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher({ isDark = false }: { isDark?: boolean }) {
   const locale = useLocale();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
@@ -17,13 +17,18 @@ export default function LocaleSwitcher() {
     });
   }
 
+  const textColor = isDark ? 'text-slate-900' : 'text-white';
+  const borderColor = isDark ? 'border-slate-300' : 'border-white/30';
+  const hoverBg = isDark ? 'hover:bg-slate-100' : 'hover:bg-white/10';
+  const ringColor = isDark ? 'focus:ring-slate-400' : 'focus:ring-white/50';
+
   return (
     <div className="relative">
       <select
         defaultValue={locale}
         onChange={onSelectChange}
         disabled={isPending}
-        className="appearance-none bg-transparent text-white border border-white/30 rounded-full px-4 py-1.5 pr-8 text-sm hover:bg-white/10 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-white/50"
+        className={`appearance-none bg-transparent ${textColor} border ${borderColor} rounded-full px-4 py-1.5 pr-8 text-sm ${hoverBg} transition-colors cursor-pointer focus:outline-none focus:ring-2 ${ringColor}`}
       >
         <option value="en" className="text-black">
           English
@@ -35,7 +40,7 @@ export default function LocaleSwitcher() {
           日本語
         </option>
       </select>
-      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
+      <div className={`pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 ${textColor}`}>
         <svg
           className="fill-current h-4 w-4"
           xmlns="http://www.w3.org/2000/svg"

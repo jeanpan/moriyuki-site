@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function Hero() {
   const t = useTranslations('MyokoPage');
@@ -10,7 +11,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ''}/myoko-hero.png)`,
+          backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ''}/myoko-hero-new.png)`,
         }}
       />
 
@@ -22,14 +23,12 @@ export default function Hero() {
           {t('hero.headline')}
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-          <a
-            href="https://www.cloud9propertymanagement.com/accommodation-enquiry"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/myoko/book"
             className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg inline-block cursor-pointer"
           >
             {t('hero.cta')}
-          </a>
+          </Link>
           <a
             href="https://www.airbnb.com/rooms/1619922084161041714?source_impression_id=p3_1771303101_P3t6fjJjEsJ1bs5h"
             target="_blank"

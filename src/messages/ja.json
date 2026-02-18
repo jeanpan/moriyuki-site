@@ -21,9 +21,12 @@
       "dryRoom": "スキー乾燥室",
       "kitchen": "フルキッチン (食洗機付)",
       "access": "妙高高原駅 徒歩9分",
-      "supermarket": "スーパー 徒歩5分",
-      "parking": "無料駐車場",
-      "lounge": "居心地の良いラウンジ"
+      "supermarket": "スーパー 徒歩4分",
+      "parking": "無料駐車場 (2台)",
+      "lounge": "快適なリビングスペース"
+    },
+    "layout": {
+      "title": "間取り図"
     },
     "rooms": {
       "title": "客室",
@@ -59,7 +62,7 @@
           "akakuraKanko": "赤倉観光まで6分",
           "akakuraOnsen": "赤倉温泉/池の平まで8分",
           "suginohara": "杉ノ原まで12分",
-          "lotteArai": "ロッテアライ/斑尾高原まで約30分",
+          "lotteArai": "ロッテアライ/斑尾高原まで約25分",
           "slogan": "毎日違うスキー場を楽しめます！🏂 ⛷️"
         }
       },
@@ -68,6 +71,36 @@
     "footer": {
       "contact": "お問い合わせ",
       "social": "フォローする"
+    }
+  },
+  "BookPage": {
+    "title": "宿泊予約",
+    "description": "以下のフォームにご記入の上、送信してください。",
+    "form": {
+      "firstName": "名 (First Name)",
+      "lastName": "姓 (Last Name)",
+      "email": "メールアドレス",
+      "adults": "大人 (人数)",
+      "children": "子供 (3-13歳)",
+      "infants": "幼児 (0-2歳)",
+      "checkIn": "チェックイン日",
+      "checkOut": "チェックアウト日",
+      "flexible": "日程の変更は可能ですか？",
+      "yesFlexible": "はい、可能です",
+      "noFlexible": "いいえ、この日程のみ希望します",
+      "specialRequests": "その他ご要望 / 特別なリクエスト",
+      "submit": "送信する",
+      "submitting": "送信中...",
+      "success": "ありがとうございます！リクエストを送信しました。担当者よりご連絡いたします。",
+      "error": "送信に失敗しました。時間をおいて再度お試しください。"
+    },
+    "pricing": {
+      "season": "2025 - 2026",
+      "twoNightsTitle": "2泊以上",
+      "fourNightsTitle": "4泊以上",
+      "untilMarch4": "〜2026年3月4日",
+      "march5to30": "2026年3月5日〜30日",
+      "perNight": "/ 泊"
     }
   }
 }

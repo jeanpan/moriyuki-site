@@ -20,10 +20,13 @@
       "title": "Amenities & Features",
       "dryRoom": "Ski Drying Room",
       "kitchen": "Full Kitchen & Dishwasher",
-      "access": "9 min to Myoko Kogen Stn",
-      "supermarket": "5 min to Supermarket",
-      "parking": "Free Parking",
-      "lounge": "Cozy Lounge"
+      "access": "9 min Walk to Myoko Kogen Stn",
+      "supermarket": "4 min Walk to Supermarket",
+      "parking": "Free Parking (2 Cars)",
+      "lounge": "Cozy Living Space"
+    },
+    "layout": {
+      "title": "Floor Plan"
     },
     "rooms": {
       "title": "Our Rooms",
@@ -59,7 +62,7 @@
           "akakuraKanko": "6 min to Akakura Kanko",
           "akakuraOnsen": "8 min to Akakura Onsen / Ikenotaira",
           "suginohara": "12 min to Suginohara",
-          "lotteArai": "30 min to Lotte Arai / Madarao Kogen",
+          "lotteArai": "25 min to Lotte Arai / Madarao Kogen",
           "slogan": "Explore a different ski resort every day! 🏂 ⛷️"
         }
       },
@@ -68,6 +71,36 @@
     "footer": {
       "contact": "Contact Us",
       "social": "Follow Us"
+    }
+  },
+  "BookPage": {
+    "title": "Book Your Stay",
+    "description": "Please fill out the form below to request a booking.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "adults": "Number of Adults",
+      "children": "Number of Children (3-13yrs)",
+      "infants": "Number of Infants (0-2yrs)",
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "flexible": "Are you flexible on dates?",
+      "yesFlexible": "Yes, I am flexible",
+      "noFlexible": "No, must be during these dates",
+      "specialRequests": "Extra information / Special requests",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "success": "Thank you! Your request has been sent. We will get back to you shortly.",
+      "error": "Something went wrong. Please try again later."
+    },
+    "pricing": {
+      "season": "2025 - 2026",
+      "twoNightsTitle": "2 Nights or More",
+      "fourNightsTitle": "4 Nights or More",
+      "untilMarch4": "Until March 4th, 2026",
+      "march5to30": "March 5th - 30th, 2026",
+      "perNight": "/ night"
     }
   }
 }

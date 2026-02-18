@@ -4,7 +4,7 @@ export default function Location() {
   const t = useTranslations('MyokoPage.location');
 
   return (
-    <section className="py-20 bg-white text-slate-800">
+    <section className="py-20 bg-slate-50 text-slate-800">
       <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center text-slate-900 border-b-2 border-amber-600 inline-block pb-2">
           {t('title')}
@@ -56,7 +56,7 @@ export default function Location() {
                 {t('nearby.desc')}
               </p>
 
-              <div className="bg-slate-50 p-6 rounded-xl text-left border border-slate-100">
+              <div className="bg-white p-6 rounded-xl text-left border border-slate-100">
                 <h4 className="font-bold text-slate-800 mb-3 flex items-center gap-2">
                   {t('nearby.driveTime.slogan')}
                 </h4>
