@@ -5,10 +5,11 @@ import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
   const t = useTranslations('MyokoPage.footer');
+  const tFaq = useTranslations('FaqPage');
 
   return (
     <footer className="bg-slate-900 text-slate-300 py-16">
-      <div className="container mx-auto px-6 max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left justify-items-center md:justify-items-start">
+      <div className="container mx-auto px-6 max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left justify-items-center md:justify-items-start">
         <div className="flex flex-col items-center md:items-start">
           <Link href="/myoko" className="flex items-center gap-3 mb-4 hover:opacity-80 transition-opacity">
             <Image
@@ -23,8 +24,21 @@ export default function Footer() {
             </h3>
           </Link>
           <p className="text-sm leading-relaxed mb-4">
-            Your cozy retreat in the heart of Myoko.
+            {t('tagline')}
           </p>
+        </div>
+
+        <div>
+          <h4 className="text-xl font-semibold mb-4 text-white">
+            {t('quickLinks')}
+          </h4>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/myoko/faq" className="hover:text-amber-500 transition-colors">
+                {tFaq('title')}
+              </Link>
+            </li>
+          </ul>
         </div>
 
         <div>

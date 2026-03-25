@@ -71,7 +71,45 @@
     },
     "footer": {
       "contact": "Contact Us",
-      "social": "Follow Us"
+      "quickLinks": "Support",
+      "social": "Follow Us",
+      "tagline": "Your cozy retreat in the heart of Myoko.",
+      "bookDirect": "Book Direct"
+    }
+  },
+  "FaqPage": {
+    "title": "FAQ",
+    "description": "Frequently asked questions about booking, payment, cancellation, and house rules.",
+    "booking": {
+      "title": "💳 Booking & Payment",
+      "q1": "How do I confirm my booking?",
+      "a1": "Your booking is officially confirmed once our management company (Cloud 9) receives a deposit of 50% or more of the total booking amount.",
+      "q2": "What payment methods and currencies are accepted?",
+      "a2": "We accept bank transfer or credit card (Visa, MasterCard). All charges are in Japanese Yen (JPY).",
+      "q3": "When is the remaining balance due?",
+      "a3": "The remaining balance must be paid at least 10 weeks before your check-in date. Please pay on time — if overdue, the reservation will be automatically cancelled and the deposit will not be refunded."
+    },
+    "cancellation": {
+      "title": "❌ Cancellation & Refunds",
+      "q4": "Can I cancel and get a refund if my plans change?",
+      "a4_intro": "Our cancellation policy is as follows (based on when you notify us):",
+      "a4_policy1": "More than 24 weeks before check-in: 25% of the deposit paid will be deducted.",
+      "a4_policy2": "More than 10 weeks before check-in: 50% of the deposit paid will be deducted.",
+      "a4_policy3": "Within 10 weeks before check-in: 100% of the total room rate will be charged (non-refundable).",
+      "a4_policy4": "No-show: 100% of the total room rate will be charged (non-refundable).",
+      "q5": "If I decide to shorten my stay, can I get a refund for unused nights?",
+      "a5": "If you do not check in (No Show) or decide to check out early after arrival, we are unable to refund the remaining nights."
+    },
+    "rules": {
+      "title": "🔑 House Rules & Check-in",
+      "q6": "What are the check-in and check-out times?",
+      "a6_checkin": "Check-in: From 3:00 PM",
+      "a6_checkout": "Check-out: By 10:00 AM",
+      "q7": "Is smoking or bringing pets allowed?",
+      "a7_smoke": "🚭 No Smoking: All indoor areas are strictly non-smoking (including e-cigarettes). If discovered, a substantial special cleaning and deodorizing fee will be charged.",
+      "a7_pets": "🐾 No Pets: Pets are not permitted anywhere on the property.",
+      "q8": "Can we drink and have a party in the living room at night?",
+      "a8": "We warmly welcome you to relax and enjoy yourselves, but please respect your neighbors' peace and quiet. Large parties are strictly prohibited, and please keep noise levels down after 10:00 PM."
     }
   },
   "BookPage": {
