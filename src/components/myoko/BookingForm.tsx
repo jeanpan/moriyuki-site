@@ -22,41 +22,21 @@ export default function BookingForm() {
         {t('season')}
       </h2>
 
-      {/* Pricing Info Cards */}
-      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Card 1: 2 Nights */}
+      {/* Pricing Info Card */}
+      <div className="w-full max-w-2xl">
         <div className="bg-slate-800/80 backdrop-blur-sm border border-slate-700 rounded-xl overflow-hidden shadow-lg hover:border-amber-500/50 transition-colors">
           <div className="bg-amber-600/20 p-4 border-b border-amber-600/30">
-            <h4 className="text-xl font-bold text-amber-400 text-center">{t('twoNightsTitle')}</h4>
+            <h4 className="text-xl font-bold text-amber-400 text-center">{t('priceTitle')}</h4>
           </div>
           <div className="p-6">
             <ul className="space-y-4">
               <li className="flex justify-between items-center border-b border-slate-700/50 pb-3">
-                <span className="text-slate-300">{t('untilMarch4')}</span>
-                <span className="text-lg font-bold text-white">¥130,000 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
+                <span className="text-slate-300">{t('apr1toDec11')}</span>
+                <span className="text-lg font-bold text-white">¥42,000〜 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
               </li>
               <li className="flex justify-between items-center pt-1">
-                <span className="text-slate-300">{t('march5to30')}</span>
-                <span className="text-lg font-bold text-white">¥110,000 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Card 2: 4 Nights */}
-        <div className="bg-slate-800/80 backdrop-blur-sm border border-slate-700 rounded-xl overflow-hidden shadow-lg hover:border-amber-500/50 transition-colors">
-          <div className="bg-amber-600/20 p-4 border-b border-amber-600/30">
-            <h4 className="text-xl font-bold text-amber-400 text-center">{t('fourNightsTitle')}</h4>
-          </div>
-          <div className="p-6">
-            <ul className="space-y-4">
-              <li className="flex justify-between items-center border-b border-slate-700/50 pb-3">
-                <span className="text-slate-300">{t('untilMarch4')}</span>
-                <span className="text-lg font-bold text-white">¥125,000 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
-              </li>
-              <li className="flex justify-between items-center pt-1">
-                <span className="text-slate-300">{t('march5to30')}</span>
-                <span className="text-lg font-bold text-white">¥105,000 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
+                <span className="text-slate-300">{t('dec12toMar31')}</span>
+                <span className="text-lg font-bold text-white">¥130,000〜 <span className="text-sm font-normal text-slate-400">{t('perNight')}</span></span>
               </li>
             </ul>
           </div>

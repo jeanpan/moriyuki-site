@@ -134,11 +134,10 @@
       "error": "發生錯誤。請稍後再試。"
     },
     "pricing": {
-      "season": "2025 - 2026",
-      "twoNightsTitle": "2 晚以上",
-      "fourNightsTitle": "4 晚以上",
-      "untilMarch4": "2026年3月4日前",
-      "march5to30": "2026年3月5日 - 30日",
+      "season": "2026 - 2027",
+      "priceTitle": "每晚價格（起）",
+      "apr1toDec11": "2026年4月1日 - 12月11日",
+      "dec12toMar31": "2026年12月12日 - 2027年3月31日",
       "perNight": "/ 晚"
     }
   }

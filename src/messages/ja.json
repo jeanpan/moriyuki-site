@@ -134,11 +134,10 @@
       "error": "送信に失敗しました。時間をおいて再度お試しください。"
     },
     "pricing": {
-      "season": "2025 - 2026",
-      "twoNightsTitle": "2泊以上",
-      "fourNightsTitle": "4泊以上",
-      "untilMarch4": "〜2026年3月4日",
-      "march5to30": "2026年3月5日〜30日",
+      "season": "2026 - 2027",
+      "priceTitle": "1泊あたりの料金（より）",
+      "apr1toDec11": "2026年4月1日〜12月11日",
+      "dec12toMar31": "2026年12月12日〜2027年3月31日",
       "perNight": "/ 泊"
     }
   }

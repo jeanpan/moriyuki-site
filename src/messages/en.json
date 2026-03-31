@@ -134,11 +134,10 @@
       "error": "Something went wrong. Please try again later."
     },
     "pricing": {
-      "season": "2025 - 2026",
-      "twoNightsTitle": "2 Nights or More",
-      "fourNightsTitle": "4 Nights or More",
-      "untilMarch4": "Until March 4th, 2026",
-      "march5to30": "March 5th - 30th, 2026",
+      "season": "2026 - 2027",
+      "priceTitle": "Price per Night (from)",
+      "apr1toDec11": "Apr 1 - Dec 11, 2026",
+      "dec12toMar31": "Dec 12, 2026 - Mar 31, 2027",
       "perNight": "/ night"
     }
   }
