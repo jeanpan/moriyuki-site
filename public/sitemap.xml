@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Myoko main page (primary landing) -->
+  <url>
+    <loc>https://moriyukijp.com/zh/myoko/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/ja/myoko/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/en/myoko/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Booking pages -->
+  <url>
+    <loc>https://moriyukijp.com/zh/myoko/book/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/book/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/ja/myoko/book/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/book/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/en/myoko/book/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/book/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/book/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ pages -->
+  <url>
+    <loc>https://moriyukijp.com/zh/myoko/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/ja/myoko/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://moriyukijp.com/en/myoko/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://moriyukijp.com/zh/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://moriyukijp.com/ja/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moriyukijp.com/en/myoko/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

@@ -8,6 +8,9 @@ import Gallery from '@/components/myoko/Gallery';
 import Location from '@/components/myoko/Location';
 import Footer from '@/components/myoko/Footer';
 
+const BASE_URL = 'https://moriyukijp.com';
+const PAGE_PATH = '/myoko';
+
 export async function generateMetadata({
   params,
 }: {
@@ -16,11 +19,73 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'MyokoPage' });
 
+  const ogLocale =
+    locale === 'zh' ? 'zh_TW' : locale === 'ja' ? 'ja_JP' : 'en_US';
+
   return {
     title: t('title'),
     description: t('description'),
+    keywords: t('keywords'),
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${PAGE_PATH}`,
+      languages: {
+        en: `${BASE_URL}/en${PAGE_PATH}`,
+        ja: `${BASE_URL}/ja${PAGE_PATH}`,
+        zh: `${BASE_URL}/zh${PAGE_PATH}`,
+        'x-default': `${BASE_URL}/en${PAGE_PATH}`,
+      },
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      url: `${BASE_URL}/${locale}${PAGE_PATH}`,
+      siteName: 'Moriyuki / 森雪',
+      images: [
+        {
+          url: `${BASE_URL}/myoko-hero-new.png`,
+          width: 1200,
+          height: 630,
+          alt: t('title'),
+        },
+      ],
+      locale: ogLocale,
+      type: 'website',
+    },
   };
 }
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LodgingBusiness',
+  name: 'Moriyuki / 森雪',
+  alternateName: ['森雪', 'Moriyuki Myoko', '妙高民宿 森雪'],
+  url: BASE_URL,
+  image: `${BASE_URL}/myoko-hero-new.png`,
+  description:
+    'A cozy guesthouse in Myoko Kogen, Niigata, Japan, near major ski resorts including Akakura, Suginohara, and Lotte Arai.',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Myoko',
+    addressRegion: 'Niigata',
+    addressCountry: 'JP',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 36.878,
+    longitude: 138.107,
+  },
+  amenityFeature: [
+    { '@type': 'LocationFeatureSpecification', name: 'Ski dry room', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Full kitchen with dishwasher', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Free parking', value: true },
+    { '@type': 'LocationFeatureSpecification', name: 'Free WiFi', value: true },
+  ],
+  numberOfRooms: 3,
+  checkinTime: '15:00',
+  checkoutTime: '10:00',
+  currenciesAccepted: 'JPY',
+  paymentAccepted: 'Credit Card, Bank Transfer',
+};
 
 export default async function MyokoPage({
   params,
@@ -32,6 +97,10 @@ export default async function MyokoPage({
 
   return (
     <div className="font-sans antialiased text-gray-900 bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero />
       <Intro />
       <Layout />
