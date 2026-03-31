@@ -9,7 +9,7 @@ export default function RootPage() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/en');
+    router.replace('/en/myoko');
   }, [router]);
 
   return (

@@ -36,7 +36,7 @@ export default async function FaqPage({
             href="/myoko"
             className="text-slate-400 hover:text-amber-500 transition-colors text-sm inline-flex items-center gap-1"
           >
-            ← Moriyuki Myoko
+            {t('backToHome')}
           </Link>
         </div>
         <div className="text-center mb-14">

@@ -8,7 +8,7 @@ export default function RootLayout({
       <head>
         <meta
           httpEquiv="refresh"
-          content={`0;url=${process.env.NEXT_PUBLIC_BASE_PATH || ''}/en`}
+          content={`0;url=${process.env.NEXT_PUBLIC_BASE_PATH || ''}/en/myoko`}
         />
       </head>
       <body>{children}</body>

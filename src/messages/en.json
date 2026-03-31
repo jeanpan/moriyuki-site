@@ -5,10 +5,11 @@
   },
   "MyokoPage": {
     "title": "Moriyuki | Guesthouse in Myoko Kogen, Niigata Japan",
+    "heroTitle": "MORIYUKI Myoko",
     "description": "Moriyuki is a cozy guesthouse in Myoko Kogen, Niigata, Japan. 9-min walk to Myoko Kogen Station. Close to Akakura, Suginohara & Lotte Arai ski resorts. Ski dry room, full kitchen & free parking.",
     "keywords": "Myoko guesthouse, Moriyuki, Myoko Kogen accommodation, Myoko skiing, Niigata guesthouse, Akakura, Suginohara, Lotte Arai",
     "hero": {
-      "headline": "Your Cozy Retreat in the Heart of Myoko",
+      "headline": "Your Cozy Retreat in the Heart of Myoko, Niigata",
       "cta": "Book Direct (Best Price)",
       "cta_airbnb": "Book on Airbnb"
     },
@@ -74,13 +75,14 @@
       "contact": "Contact Us",
       "quickLinks": "Support",
       "social": "Follow Us",
-      "tagline": "Your cozy retreat in the heart of Myoko.",
+      "tagline": "Your cozy retreat in the heart of Myoko, Niigata.",
       "bookDirect": "Book Direct"
     }
   },
   "FaqPage": {
     "title": "FAQ",
     "description": "Frequently asked questions about booking, payment, cancellation, and house rules.",
+    "backToHome": "← Back to Home",
     "booking": {
       "title": "💳 Booking & Payment",
       "q1": "How do I confirm my booking?",
