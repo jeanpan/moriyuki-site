@@ -54,38 +54,45 @@ export async function generateMetadata({
   };
 }
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'LodgingBusiness',
-  name: 'Moriyuki / 森雪',
-  alternateName: ['森雪', 'Moriyuki Myoko', '妙高民宿 森雪'],
-  url: BASE_URL,
-  image: `${BASE_URL}/myoko-hero-new.png`,
-  description:
-    'A cozy guesthouse in Myoko Kogen, Niigata, Japan, near major ski resorts including Akakura, Suginohara, and Lotte Arai.',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Myoko',
-    addressRegion: 'Niigata',
-    addressCountry: 'JP',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 36.878,
-    longitude: 138.107,
-  },
-  amenityFeature: [
-    { '@type': 'LocationFeatureSpecification', name: 'Ski dry room', value: true },
-    { '@type': 'LocationFeatureSpecification', name: 'Full kitchen with dishwasher', value: true },
-    { '@type': 'LocationFeatureSpecification', name: 'Free parking', value: true },
-    { '@type': 'LocationFeatureSpecification', name: 'Free WiFi', value: true },
-  ],
-  numberOfRooms: 3,
-  checkinTime: '15:00',
-  checkoutTime: '10:00',
-  currenciesAccepted: 'JPY',
-  paymentAccepted: 'Credit Card, Bank Transfer',
+const descriptions: Record<string, string> = {
+  en: 'A cozy guesthouse in Myoko Kogen, Niigata, Japan, near major ski resorts including Akakura, Suginohara, and Lotte Arai.',
+  zh: '森雪是位於日本新潟妙高高原的溫馨民宿。鄰近赤倉觀光、杉之原、樂天新井等雪場。提供滑雪乾燥室、完善廚房與免費停車。',
+  ja: '新潟県妙高高原にある民宿・森雪。赤倉観光・杉ノ原・ロッテアライなど複数のスキー場に近く、スキー乾燥室・フルキッチン・無料駐車場完備。',
 };
+
+function buildJsonLd(locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'LodgingBusiness',
+    name: 'Moriyuki / 森雪',
+    alternateName: ['森雪', 'Moriyuki Myoko', '妙高民宿 森雪'],
+    url: `${BASE_URL}/${locale}/myoko`,
+    image: `${BASE_URL}/myoko-hero-new.png`,
+    description: descriptions[locale] || descriptions.en,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Myoko',
+      addressRegion: 'Niigata',
+      addressCountry: 'JP',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 36.878,
+      longitude: 138.107,
+    },
+    amenityFeature: [
+      { '@type': 'LocationFeatureSpecification', name: 'Ski dry room', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Full kitchen with dishwasher', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Free parking', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Free WiFi', value: true },
+    ],
+    numberOfRooms: 3,
+    checkinTime: '15:00',
+    checkoutTime: '10:00',
+    currenciesAccepted: 'JPY',
+    paymentAccepted: 'Credit Card, Bank Transfer',
+  };
+}
 
 export default async function MyokoPage({
   params,
@@ -99,7 +106,7 @@ export default async function MyokoPage({
     <div className="font-sans antialiased text-gray-900 bg-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildJsonLd(locale)) }}
       />
       <Hero />
       <Intro />

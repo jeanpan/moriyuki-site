@@ -1,15 +1,32 @@
-'use client';
+import { redirect } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 
-import { useEffect } from 'react';
-import { useRouter, useParams } from 'next/navigation';
+const BASE_URL = 'https://moriyukijp.com';
 
-export default function LocalePage() {
-  const router = useRouter();
-  const params = useParams();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
 
-  useEffect(() => {
-    router.replace(`/${params.locale}/myoko`);
-  }, [router, params.locale]);
+  return {
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/myoko`,
+    },
+    robots: {
+      index: false,
+      follow: true,
+    },
+  };
+}
 
-  return null;
+export default async function LocalePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  redirect(`/${locale}/myoko`);
 }

@@ -3,6 +3,9 @@ import FAQ from '@/components/myoko/FAQ';
 import Footer from '@/components/myoko/Footer';
 import { Link } from '@/i18n/routing';
 
+const BASE_URL = 'https://moriyukijp.com';
+const PAGE_PATH = '/myoko/faq';
+
 export async function generateMetadata({
   params,
 }: {
@@ -14,6 +17,15 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('description'),
+    alternates: {
+      canonical: `${BASE_URL}/${locale}${PAGE_PATH}`,
+      languages: {
+        en: `${BASE_URL}/en${PAGE_PATH}`,
+        ja: `${BASE_URL}/ja${PAGE_PATH}`,
+        zh: `${BASE_URL}/zh${PAGE_PATH}`,
+        'x-default': `${BASE_URL}/en${PAGE_PATH}`,
+      },
+    },
   };
 }
 
